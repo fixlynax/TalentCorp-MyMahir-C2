@@ -1,0 +1,47 @@
+/* Style for the main grid layout with class .container */
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto; /* 3 equal columns */
+  background-color: red;
+  padding: 10px;
+}
+
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Style for single-column grid using ID #container */
+#container {
+  display: grid;
+  grid-template-columns: auto; /* Only 1 column */
+  background-color: blue;
+  padding: 10px;
+}
+
+#container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Style for two-column grid layout with ID #container3 */
+#container3 {
+  display: grid;
+  grid-template-columns: auto auto; /* 2 columns */
+  background-color: purple;
+  padding: 10px;
+}
+
+#container3 > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
